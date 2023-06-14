@@ -1,0 +1,1 @@
+<input type="{{$type}}" id="{{$id}}" name="{{$name}}" placeholder="{{$place}}" value="{{$value}}" class="border border-black text-lg bg-transparent rounded-md mt-1 focus:ring focus:ring-green-600 active:border-green-600 py-2 outline-none text-black placeholder:text-slate-500 px-3">
