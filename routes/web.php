@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\addListController;
+use App\Http\Controllers\testController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -26,6 +27,9 @@ Route::post("save/list",[addListController::class,'store']);
 Route::get("edit/list/{id}",[addListController::class,'edit']);
 Route::post("update/list",[addListController::class,'update']);
 Route::get("delete/list/{id}",[addListController::class,'destroy']);
+
+
+Route::get("/test",[testController::class, 'test']);
 
 
 
